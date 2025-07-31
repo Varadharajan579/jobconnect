@@ -1,0 +1,90 @@
+/* Apply background gradient and overall dark style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Glassmorphic Card */
+.login-container {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    padding: 40px;
+    width: 400px;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #e4e4e4;
+}
+
+/* Form Fields */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2e2e2e;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+input:focus,
+select:focus {
+    background-color: #3e3e3e;
+}
+
+/* Button Style */
+button {
+    width: 100%;
+    background-color: #6c5ce7;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a4cd3;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+    color: #ccc;
+}
+.subtext {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #f0f0f0;
+    font-style: italic;
+}
